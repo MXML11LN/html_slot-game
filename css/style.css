@@ -70,10 +70,10 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-.spin{
+#slot1, #slot2, #slot3{
     width: 120px;
     height: 120px;
-    background-color: rgb(122, 105, 231);
+    background-color: rgb(231, 230, 243);
     border-radius: 20px;
 }
 .spin-controls {
