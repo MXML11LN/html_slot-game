@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="wrapper">
+        <header class="welcome-header">
+            <div class="welcome-text">Welcome to our Casino</div>
+            <div class="ballace">Your ballance: <span id="current_ballance">1000 spins</span></div>
+        </header>
+        <main class="main-slot">
+            <section class="spin-status">
+                <span> Try your Luck</span>
+            </section>
+            <section class="slots-body">
+                <div class="spin tile1" id="spin1"></div>
+                <div class="spin tile2" id="spin2"></div>
+                <div class="spin tile3" id="spin3"></div>
+            </section>
+            <section class="spin-controls">
+                <button class="spin-btn">Spin</button>
+            </section>
+        </main>
+        <footer class="casino-footer">
+            All rights reserved 2021 &#169;
+        </footer>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

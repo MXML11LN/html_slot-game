@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body{
+    font-family:'Oswald', sans-serif;;
+}
+.wrapper{
+    min-width: 100%;
+    min-height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.welcome-header {
+    background-color:rgba(252, 0, 0, 0.774);
+    padding:30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow:  1px 1px 2px rgb(255, 212, 148);
+}
+.main-slot {
+    background-color: rgb(114, 129, 145);
+    padding: 0 20px;
+    flex:1 1 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.casino-footer {
+    padding:30px;
+    background-color: rgba(110, 2, 2, 0.897);
+    text-align: center;
+    color: rgba(192, 192, 192, 0.904);
+}
+
+.ballace{
+    margin: 20px;
+    font-weight: 700;
+    font-size: .8em;
+    color: rgba(245, 245, 245, 0.884);
+}
+#current_ballance{
+    font-size: 1.4em;
+    color: yellow;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
+}
+
+.spin-status {
+    padding: 20px;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(174, 90, 253);
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow:2px 2px 3px blanchedalmond;
+    color: rgb(117, 53, 6);
+    border-radius: 15px;
+}
+.slots-body {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255, 248, 238, 0.856);
+    border: 10px solid black ;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.spin{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(122, 105, 231);
+    border-radius: 20px;
+}
+.spin-controls {
+    margin: 10px 0;
+}
+.spin-btn {
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+    background: center no-repeat url("./../images/spin_button.png") rgb(253, 133, 133);
+    border: 2px solid rgb(252, 0, 0);
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px rgb(165, 2, 2);
+    text-transform: uppercase;
+    font-size: 32px;
+    color: rgb(65, 83, 122);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.tile1{
+    background: center no-repeat url("./../images/ace.png");
+}
+.tile2{
+    background: center no-repeat url("./../images/apple.png");
+}
+.tile3{
+    background: center no-repeat url("./../images/banana.png");
+}
+.tile4{
+    background: center no-repeat url("./../images/cherry.png");
+}
+.tile5{
+    background: center no-repeat url("./../images/club.png");
+}
+.tile6{
+    background: center no-repeat url("./../images/diamond.png");
+}
+.tile7{
+    background: center no-repeat url("./../images/heart.png");
+}
+.tile8{
+    background: center no-repeat url("./../images/jewel.png");
+}
+.tile9{
+    background: center no-repeat url("./../images/king.png");
+}
+.tile10{
+    background: center no-repeat url("./../images/queen.png");
+}
